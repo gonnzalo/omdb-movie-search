@@ -1,7 +1,8 @@
 # OMDb Coding Challenge
 
 Is a simple web app, so I decided to start my project with CRA. I use React Router to dynamically render components and query params to fetch the data.
-Example:
+
+Router Examples:
 
 [https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie](https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie)
 [https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie](https://omdb-coding-challenge.gonnzalo.now.sh/movie/tt0077651)

@@ -71,10 +71,10 @@ select {
 }
 
 .btn-search:hover {
-  opacity: 0.9;
   transform: translateY(-1px);
   box-shadow: 0 6px 8px rgba(50, 50, 93, 0.205),
     0 2px 4px rgba(0, 0, 0, 0.123);
+  opacity: 0.9;
 }
 
 .btn-search:active {

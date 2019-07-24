@@ -28,6 +28,7 @@ const SearchForm = ({ history }) => {
           <input
             type="text"
             id="title"
+            aria-label="title"
             value={title}
             onChange={e => setTile(e.target.value)}
             placeholder="Search Movie..."
@@ -40,12 +41,14 @@ const SearchForm = ({ history }) => {
           <input
             type="text"
             id="year"
+            aria-label="year"
             value={year}
             onChange={e => setYear(e.target.value)}
             placeholder="Movie year..."
           />
         </label>
         <select
+          aria-label="type"
           value={type}
           onChange={e => setType(e.target.value)}
           className="dropdown"
