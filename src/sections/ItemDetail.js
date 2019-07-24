@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
+import MovieDetail from '../components/MovieDetail/MovieDetail';
+import './ItemDetail.css';
 
 const ItemDetail = ({ match }) => {
   const [data, setData] = useState({});
@@ -20,7 +22,6 @@ const ItemDetail = ({ match }) => {
             i: id,
           },
         });
-        console.log(result.data);
         if (result.data.Response === 'False') setIsError(true);
         setData(result.data);
       } catch (error) {
@@ -33,13 +34,19 @@ const ItemDetail = ({ match }) => {
     fetchData();
   }, [match]);
   return (
-    <>
+    <section className="section-container">
       {isError && <div>Something went wrong ...</div>}
-      {isLoading ? <div>Loading ...</div> : <div>{data.Title}</div>}
-    </>
+      {isLoading ? <div>Loading ...</div> : <MovieDetail {...data} />}
+    </section>
   );
 };
 
-ItemDetail.propTypes = {};
+ItemDetail.propTypes = {
+  match: PropTypes.shape({
+    params: PropTypes.shape({
+      movie_id: PropTypes.node,
+    }).isRequired,
+  }).isRequired,
+};
 
 export default ItemDetail;

@@ -1,0 +1,15 @@
+.footer-container {
+  height: 100px;
+  background-color: var(--secundary);
+  color: #8990a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    height: 80px;
+    font-size: 0.8rem;
+  }
+}

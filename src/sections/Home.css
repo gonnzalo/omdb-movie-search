@@ -1,0 +1,29 @@
+.section-container {
+  min-height: calc(100vh - 161px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subTitle {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+  .subTitle {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-container {
+    min-height: calc(100vh - 137px);
+  }
+
+  .subTitle {
+    font-size: 1.4rem;
+  }
+}

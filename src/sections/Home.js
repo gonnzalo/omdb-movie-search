@@ -1,12 +1,13 @@
 import React from 'react';
 import SearchForm from '../components/SearchForm/SearchForm';
+import './Home.css';
 
 const Home = () => {
   return (
-    <div>
-      <h2>Let{"'"}s find out...</h2>
+    <section className="section-container">
+      <h2 className="subTitle">Let{"'"}s find out...</h2>
       <SearchForm />
-    </div>
+    </section>
   );
 };
 

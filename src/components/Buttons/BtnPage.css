@@ -1,0 +1,20 @@
+button:focus {
+  outline: 0;
+}
+
+.btn-page {
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.active {
+  background-color: rgb(236, 77, 104);
+  color: white;
+}
+
+.btn-page:hover:not(.active) {
+  background-color: rgb(214, 214, 214);
+}
