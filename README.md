@@ -20,7 +20,7 @@ https://omdb-coding-challenge.gonnzalo.now.sh/
 ```shell
 git clone https://github.com/gonnzalo/omdb-coding-challenge
 cd omdb-coding-challenge/
-git install
+npm install
 ```
 
 In the project directory, you can run:
