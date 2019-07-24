@@ -5,7 +5,8 @@ Is a simple web app, so I decided to start my project with CRA. I use React Rout
 Router Examples:
 
 [https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie](https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie)
-[https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie](https://omdb-coding-challenge.gonnzalo.now.sh/movie/tt0077651)
+
+[https://omdb-coding-challenge.gonnzalo.now.sh/movie/tt0077651](https://omdb-coding-challenge.gonnzalo.now.sh/movie/tt0077651)
 
 If I could have dedicated more time, I would write tests and work in the design.
 
@@ -20,7 +21,7 @@ https://omdb-coding-challenge.gonnzalo.now.sh/
 ```shell
 git clone https://github.com/gonnzalo/omdb-coding-challenge
 cd omdb-coding-challenge/
-git install
+npm install
 ```
 
 In the project directory, you can run:
