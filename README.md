@@ -5,7 +5,7 @@ Example:
 
 [https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie](https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie)
 
-[https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie](https://omdb-coding-challenge.gonnzalo.now.sh/movie/tt0077651)
+[https://omdb-coding-challenge.gonnzalo.now.sh/movie/tt0077651](https://omdb-coding-challenge.gonnzalo.now.sh/movie/tt0077651)
 
 If I could have dedicated more time, I would write tests and work in the design.
 
