@@ -10,7 +10,7 @@ const ItemDetail = ({ match }) => {
   const [isError, setIsError] = useState(false);
   useEffect(() => {
     const id = match.params.movie_id;
-    const url = `http://www.omdbapi.com/?apikey=67bd717f`;
+    const url = `https://www.omdbapi.com/?apikey=67bd717f`;
 
     const fetchData = async () => {
       setIsError(false);

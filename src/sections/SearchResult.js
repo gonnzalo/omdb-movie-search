@@ -21,7 +21,7 @@ const SearchPage = ({ location, match }) => {
     const { title } = match.params;
     const year = params.get('year');
     const type = params.get('type');
-    const url = `http://www.omdbapi.com/?apikey=67bd717f`;
+    const url = `https://www.omdbapi.com/?apikey=67bd717f`;
 
     const fetchData = async () => {
       setIsError(false);
