@@ -1,4 +1,4 @@
-# OMDb Movies search
+# OMDb Movie Search
 
 Part of a job assigment
 
