@@ -1,14 +1,12 @@
-# OMDb Coding Challenge
+# OMDb Movies search
 
-Is a simple web app, so I decided to start my project with CRA. I use React Router to dynamically render components and query params to fetch the data.
+Part of a job assigment
 
 Router Examples:
 
 [https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie](https://omdb-coding-challenge.gonnzalo.now.sh/search/halloween?year=1978&type=movie)
 
 [https://omdb-coding-challenge.gonnzalo.now.sh/movie/tt0077651](https://omdb-coding-challenge.gonnzalo.now.sh/movie/tt0077651)
-
-If I could have dedicated more time, I would write tests and work in the design.
 
 ### live demo
 
@@ -30,9 +28,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
 ### `npm test`
 
